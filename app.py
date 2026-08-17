@@ -7,7 +7,7 @@ ca = certifi.where()
 from dotenv import load_dotenv
 load_dotenv()
 
-# FIXED: Match the environment variable name used in your other files
+
 mongo_db_url = os.getenv("MONGO_DB_URL") 
 print(mongo_db_url)
 import pymongo

@@ -72,7 +72,7 @@ async def predict_route(request: Request, file: UploadFile = File(...)):
         y_pred = network_model.predict(df)
         df['predicted_column'] = y_pred
         
-        # FIXED: Ensure prediction directory exists before attempting to save
+      
         os.makedirs('prediction_output', exist_ok=True)
         df.to_csv('prediction_output/output.csv', index=False)
         

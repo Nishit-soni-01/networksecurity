@@ -18,9 +18,7 @@ if __name__ == '__main__':
        
         trainingpipelineconfig = TrainingPipelineConfig()
 
-        # -------------------------------------------------------------
-        # 1. Data Ingestion Phase
-        # -------------------------------------------------------------
+      
         logging.info("Initiate the data ingestion")
         dataingestionconfig = DataIngestionConfig(trainingpipelineconfig)
         data_ingestion = DataIngestion(dataingestionconfig)

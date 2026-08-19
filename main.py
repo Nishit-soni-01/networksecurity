@@ -15,7 +15,7 @@ from networksecurity.logging.logger import logging
 
 if __name__ == '__main__':
     try:
-        # Initialize the global training pipeline configuration
+       
         trainingpipelineconfig = TrainingPipelineConfig()
 
         # -------------------------------------------------------------

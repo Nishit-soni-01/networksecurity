@@ -36,9 +36,7 @@ if __name__ == '__main__':
         logging.info("Data Validation Completed")
         print(data_validation_artifact)
 
-        # -------------------------------------------------------------
-        # 3. Data Transformation Phase
-        # -------------------------------------------------------------
+       
         logging.info("Data Transformation started")
         data_transformation_config = DataTransformationConfig(
             trainingpipelineconfig

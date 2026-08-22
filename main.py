@@ -50,9 +50,7 @@ if __name__ == '__main__':
         logging.info("Data Transformation completed")
         print(data_transformation_artifact)
 
-        # -------------------------------------------------------------
-        # 4. Model Training Phase
-        # -------------------------------------------------------------
+       
         logging.info("Model Training started")
         model_trainer_config = ModelTrainerConfig(trainingpipelineconfig)
         model_trainer = ModelTrainer(

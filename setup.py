@@ -10,7 +10,7 @@ def get_requirements() -> List[str]:
         with open('requirements.txt', 'r') as file:
            
             lines = file.readlines()
-            # Process each line
+            
             for line in lines:
                 requirement = line.strip()
                 # Ignore empty lines and the editable install flag '-e .'

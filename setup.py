@@ -13,7 +13,7 @@ def get_requirements() -> List[str]:
             
             for line in lines:
                 requirement = line.strip()
-                # Ignore empty lines and the editable install flag '-e .'
+              
                 if requirement and requirement != '-e .':
                     requirement_lst.append(requirement)
     except FileNotFoundError:
